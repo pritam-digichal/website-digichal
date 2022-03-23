@@ -96,17 +96,20 @@ const styles = {
     fontSize: "20px",
     letterSpacing: "0.2px",
     color: "#000000",
+    fontFamily: "Roboto",
   },
   headingMobile2: {
     fontSize: "32px",
     letterSpacing: "0.32px",
     color: "#3CB3E7",
     fontWeight: 600,
+    fontFamily: "Roboto",
   },
   headingMobile3: {
     fontSize: "14px",
     letterSpacing: "0.14px",
     color: "#000000",
+    fontFamily: "Roboto",
   },
   mobileMainContent: {
     display: "flex",

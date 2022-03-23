@@ -133,6 +133,7 @@ const styles = {
       color: "#3CB3E7 !important",
     },
     textDecoration: "none",
+    fontFamily: "Roboto",
   },
   aboutUsNewText: {
     fontSize: "18px",
@@ -145,6 +146,7 @@ const styles = {
       color: "#3CB3E7 !important",
     },
     textDecoration: "none",
+    fontFamily: "Roboto",
   },
 };
 export default HeaderDesktop;
