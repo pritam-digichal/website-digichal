@@ -15,7 +15,7 @@ export default function TERMS_AND_CONDITION() {
           {i18next.t("TERMS_AND_CONDITION")}
         </h2>
       </div>
-      <p style={{ ...styles.pText, textAlign: "center" }}>
+      <p style={styles.pText}>
         Your use of the information, graphics and materials on the DigiChal
         Consultancy Private Limited website/application (“Materi al on this
         website/application ”) is governed by these Terms of Use and the Privacy
