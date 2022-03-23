@@ -13,7 +13,9 @@ function DashboardDesktop() {
         </Col>
       </Row>
       <Row type="flex">
-        <Col span={24}>{/* <Banner /> */}</Col>
+        <Col span={24}>
+          <Banner />
+        </Col>
       </Row>
     </>
   );

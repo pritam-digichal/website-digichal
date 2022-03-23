@@ -70,6 +70,7 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     height: "80vh",
+    paddingLeft: "70px",
   },
   heading1: {
     fontSize: "41px",

@@ -44,8 +44,8 @@ const HeaderDesktop = (props) => {
             <Image
               alt="logo"
               src={logo}
-              width={236}
-              height={62}
+              width={272}
+              height={72}
               onClick={gotoHome}
             />
           </span>
@@ -55,7 +55,7 @@ const HeaderDesktop = (props) => {
         <Menu
           mode="horizontal"
           // defaultSelectedKeys={["1"]}
-          style={{ justifyContent: "end", border: "none" }}
+          style={{ justifyContent: "end", border: "none", marginRight: 70 }}
         >
           <Menu.Item key="1">
             <Link href="/">
@@ -117,7 +117,7 @@ const styles = {
   logoBox: {
     justifyContent: "center",
     alignItems: "center",
-    marginLeft: 100,
+    marginLeft: 70,
   },
   logo: {
     cursor: "pointer",
