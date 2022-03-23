@@ -5,6 +5,7 @@ import HeaderDesktop from "../../components/header-desktop";
 import Banner from "../../components/banner";
 import DigichalServices from "../../components/digichalServices";
 import FooterDesktop from "../../components/footer-desktop";
+import FeatureBanner from "../../components/featureBanner";
 
 function FeatureDesktop() {
   return (
@@ -12,7 +13,7 @@ function FeatureDesktop() {
       <Row type="flex">
         <Col span={24}>
           <HeaderDesktop />
-          <Banner />
+          <FeatureBanner />
           <FooterDesktop />
         </Col>
       </Row>
