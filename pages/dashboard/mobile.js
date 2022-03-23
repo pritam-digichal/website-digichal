@@ -8,13 +8,7 @@ import DigichalServices from "../../components/digichalServices";
 function DashboardDesktop() {
   return (
     <>
-      <Row type="flex" align="middle" style={{ height: "15vh" }}>
-        <Col span={24}>
-          <HeaderDesktop />
-        </Col>
-      </Row>
-      <Divider style={{ margin: 0 }} />
-      <Row type="flex">
+      <Row>
         <Col span={24}>
           <BannerMobile />
           <DigichalServices />

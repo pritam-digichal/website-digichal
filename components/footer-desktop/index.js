@@ -24,7 +24,7 @@ const FooterDesktop = () => {
         <Col span={16} align="middle">
           <Row justify="space-between" align="middle">
             <Col span={6} align="middle" style={{ cursor: "pointer" }}>
-              <Link href="/vertical" style={styles.removeLine}>
+              <Link href="/" style={styles.removeLine}>
                 <span style={styles.footerText}>Home</span>
               </Link>
             </Col>
@@ -99,13 +99,12 @@ const FooterDesktop = () => {
           </Link>
         </Col>
 
-        <Col style={{ marginTop: 20, zIndex: 99 }}>
+        <Col style={{ marginTop: 20, zIndex: 99, paddingBottom: 25 }}>
           <span style={styles.copyrightText}>
             All Copyright Reserved @ DigiChal Private Limited
           </span>
         </Col>
       </Row>
-      <div className="boundary"></div>
     </div>
   );
 };
@@ -130,7 +129,7 @@ const styles = {
     marginRight: 10,
   },
   copyrightText: {
-    color: "#D8E0E3",
+    color: "#707272",
     fontSize: 14,
     letterSpacing: 1,
   },

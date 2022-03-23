@@ -15,7 +15,7 @@ export default function Home() {
       />
       <HeaderDesktop />
       <Dashboard />
-      <FooterDesktop />
+      {/* <FooterDesktop /> */}
     </div>
   );
 }

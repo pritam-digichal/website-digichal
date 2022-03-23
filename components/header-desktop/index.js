@@ -71,6 +71,20 @@ const HeaderDesktop = (props) => {
             </Link>
           </Menu.Item>
           <Menu.Item key="2">
+            <Link href="https://shop.digichal.in/">
+              <a
+                style={
+                  router.pathname == "/store_finder"
+                    ? styles.aboutUsNewText
+                    : styles.aboutUsText
+                }
+                target="_blank"
+              >
+                {i18next.t("STORE_FINDER")}
+              </a>
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="3">
             <Link href="/feature">
               <a
                 style={
@@ -83,7 +97,7 @@ const HeaderDesktop = (props) => {
               </a>
             </Link>
           </Menu.Item>
-          <Menu.Item key="3">
+          <Menu.Item key="4">
             <Link href="/about_us">
               <a
                 style={
@@ -96,7 +110,7 @@ const HeaderDesktop = (props) => {
               </a>
             </Link>
           </Menu.Item>
-          <Menu.Item key="4">
+          <Menu.Item key="5">
             <span
               style={styles.aboutUsText}
               onClick={() => {
