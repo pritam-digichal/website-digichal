@@ -1,17 +1,15 @@
 import { Row, Col, Divider } from "antd";
 import React, { useState, useEffect } from "react";
-import styles from "../../styles/Dashboard.module.css";
-import HeaderDesktop from "../../components/header-desktop";
-import BannerMobile from "../../components/bannerMobile";
-import DigichalServices from "../../components/digichalServices";
+import FeatureBanner from "../../components/featureBannerMobile";
+import FeatureDetails from "../../components/featureDetails";
 
 function FeatureMobile() {
   return (
     <>
       <Row>
         <Col span={24}>
-          <BannerMobile />
-          <DigichalServices />
+          <FeatureBanner />
+          <FeatureDetails />
         </Col>
       </Row>
     </>
