@@ -72,6 +72,10 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+        rel="stylesheet"
+      />
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-5X3Q5NQZC5"

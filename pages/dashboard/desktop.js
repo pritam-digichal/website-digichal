@@ -12,11 +12,8 @@ function DashboardDesktop() {
           <HeaderDesktop />
         </Col>
       </Row>
-      <Divider style={{ margin: 0 }} />
       <Row type="flex">
-        <Col span={24}>
-          <Banner />
-        </Col>
+        <Col span={24}>{/* <Banner /> */}</Col>
       </Row>
     </>
   );
