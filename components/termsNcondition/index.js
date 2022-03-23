@@ -119,12 +119,12 @@ export default function TERMS_AND_CONDITION() {
           <br />• The Company enables transactions on its Platform between
           participating restaurants/stores/merchants/sellers and buyers, dealing
           in (a) food and beverages, (b) provisions, consumer goods, consumables
-          etc., and (c) any other products or services ("Platform Services'').
-          The buyers ("Buyers'') can choose and place orders ("Orders'') from a
-          variety of products and services listed and offered for sale by
-          various merchants including but not limited to the restaurants,
-          eateries, grocery stores, other service providers ("Merchants''), on
-          the Platform.
+          etc., and (c) any other products or services (&quot;Platform
+          Services). The buyers (&quot;Buyers) can choose and place orders
+          (&quot;Orders) from a variety of products and services listed and
+          offered for sale by various merchants including but not limited to the
+          restaurants, eateries, grocery stores, other service providers
+          (&quot;Merchants), on the Platform.
           <br />
           <br />• These Terms contain rules, regulations, policies, terms and
           conditions applicable to any Person who may access or use the
@@ -234,13 +234,13 @@ export default function TERMS_AND_CONDITION() {
           <br />
           <br />• is grossly harmful, harassing, blasphemous, defamatory,
           obscene, pornographic, paedophilic, libellous, slanderous, criminally
-          inciting or invasive of another's privacy, hateful, or racially,
+          inciting or invasive of another&apos;s privacy, hateful, or racially,
           ethnically objectionable, disparaging, relating or encouraging money
           laundering or gambling, or otherwise unlawful in any manner
           whatsoever; or unlawfully threatening or unlawfully harassing
-          including but not limited to "indecent representation of women" within
-          the meaning of the Indecent Representation of Women (Prohibition) Act,
-          1986;
+          including but not limited to &quot;indecent representation of
+          women&quot; within the meaning of the Indecent Representation of Women
+          (Prohibition) Act, 1986;
           <br />
           <br />• is misleading or misrepresentative in any way;
           <br />
@@ -251,24 +251,26 @@ export default function TERMS_AND_CONDITION() {
           <br />
           <br />• harasses or advocates harassment of another person;
           <br />
-          <br />• involves the transmission of "junk mail", "chain letters", or
-          unsolicited mass mailing or "spamming";
+          <br />• involves the transmission of &quot;junk mail&quot;,
+          &quot;chain letters&quot;, or unsolicited mass mailing or
+          &quot;spamming&quot;;
           <br />
           <br />• promotes illegal activities or conduct that is abusive,
           threatening, obscene, defamatory or libellous;
           <br />
-          <br />• infringes upon or violates any third party's rights including,
-          but not limited to, intellectual property rights, rights of privacy
-          (including without limitation unauthorized disclosure of a person's
-          name, email address, physical address or phone number) or rights of
-          publicity or any other proprietary rights;
+          <br />• infringes upon or violates any third party&apos;s rights
+          including, but not limited to, intellectual property rights, rights of
+          privacy (including without limitation unauthorized disclosure of a
+          person&apos;s name, email address, physical address or phone number)
+          or rights of publicity or any other proprietary rights;
           <br />
-          <br />• promotes an illegal or unauthorized copy of another person's
-          copyrighted work (see "copyright complaint" below for instructions on
-          how to lodge a complaint about uploaded copyrighted material), such as
-          providing pirated computer programs or links to them, providing
-          information to circumvent manufacture-installed copy-protect devices,
-          or providing pirated music or links to pirated music files;
+          <br />• promotes an illegal or unauthorized copy of another
+          person&apos;s copyrighted work (see &quot;copyright complaint&quot;
+          below for instructions on how to lodge a complaint about uploaded
+          copyrighted material), such as providing pirated computer programs or
+          links to them, providing information to circumvent
+          manufacture-installed copy-protect devices, or providing pirated music
+          or links to pirated music files;
           <br />
           <br />• contains restricted or password-only access pages, or hidden
           pages or images (those not linked to or from another accessible page);
@@ -278,8 +280,8 @@ export default function TERMS_AND_CONDITION() {
           anyone;
           <br />
           <br />• provides instructional information about illegal activities
-          such as making or buying illegal weapons, violating someone's privacy,
-          or providing or creating computer viruses;
+          such as making or buying illegal weapons, violating someone&apos;s
+          privacy, or providing or creating computer viruses;
           <br />
           <br />• contains video, photographs, or images of another person (with
           a minor or an adult);
@@ -302,8 +304,9 @@ export default function TERMS_AND_CONDITION() {
           <br />• solicits gambling or engages in any gambling activity which is
           or could be construed as being illegal;
           <br />
-          <br />• interferes with another user's use and enjoyment of the
-          Platform or any third party's user and enjoyment of similar services;
+          <br />• interferes with another user&apos;s use and enjoyment of the
+          Platform or any third party&apos;s user and enjoyment of similar
+          services;
           <br />
           <br />• refers to any website or URL that, in our sole discretion,
           contains material that is inappropriate for the Platform or any other
@@ -313,9 +316,9 @@ export default function TERMS_AND_CONDITION() {
           <br />• harm minors in any way;
           <br />
           <br />• infringes any patent, trademark, copyright or other
-          intellectual property rights or third party's trade secrets or rights
-          of publicity or privacy or shall not be fraudulent or involve the sale
-          of counterfeit or stolen products;
+          intellectual property rights or third party&apos;s trade secrets or
+          rights of publicity or privacy or shall not be fraudulent or involve
+          the sale of counterfeit or stolen products;
           <br />
           <br />• violates any Law for the time being in force;
           <br />
@@ -355,10 +358,11 @@ export default function TERMS_AND_CONDITION() {
           to Your knowledge, You shall forthwith take all steps to inform the
           Company of such violation at support@digichal.in
           <br />
-          <br />• You shall not use any "deep-link", "page-scrape", "robot",
-          "spider" or other automatic device, program, algorithm or methodology,
-          or any similar or equivalent manual process, to access, acquire, copy
-          or monitor any portion of the Platform or any content, or in any way
+          <br />• You shall not use any &quot;deep-link&quot;,
+          &quot;page-scrape&quot;, &quot;robot&quot;, &quot;spider&quot; or
+          other automatic device, program, algorithm or methodology, or any
+          similar or equivalent manual process, to access, acquire, copy or
+          monitor any portion of the Platform or any content, or in any way
           reproduce or circumvent the navigational structure or presentation of
           the Platform or any content, to obtain or attempt to obtain any
           materials, documents or information through any means not purposely
@@ -369,7 +373,7 @@ export default function TERMS_AND_CONDITION() {
           portion or feature of the Platform, or any other systems or networks
           connected to the Platform or to any server, computer, network, or to
           any of the services offered on or through the Platform, by hacking,
-          "password mining" or any other illegitimate means.
+          &quot;password mining&quot; or any other illegitimate means.
           <br />
           <br />• You shall not probe, scan or test the vulnerability of the
           Platform or any network connected to the Platform nor breach the
@@ -468,15 +472,15 @@ export default function TERMS_AND_CONDITION() {
           or as the result of the presence of such advertisers on the Platform.
           <br />
           <br />• It is possible that other Users (including unauthorized users
-          or 'hackers') may post or transmit offensive or obscene materials on
-          the Platform and that You may be involuntarily exposed to such
-          offensive and obscene materials. It is also possible for others to
-          obtain personal information about You due to Your use of the Platform,
-          and that the recipient may use such information to harass or injure
-          You. We do not approve of such unauthorized uses, but by using the
-          Platform You acknowledge and agree that we are not responsible for the
-          use of any personal information that You publicly disclose or share
-          with others on the Platform. Please carefully select the type of
+          or &apos;hackers&apos;) may post or transmit offensive or obscene
+          materials on the Platform and that You may be involuntarily exposed to
+          such offensive and obscene materials. It is also possible for others
+          to obtain personal information about You due to Your use of the
+          Platform, and that the recipient may use such information to harass or
+          injure You. We do not approve of such unauthorized uses, but by using
+          the Platform You acknowledge and agree that we are not responsible for
+          the use of any personal information that You publicly disclose or
+          share with others on the Platform. Please carefully select the type of
           information that You publicly disclose or share with others on the
           Platform.
           <br />
@@ -654,7 +658,7 @@ export default function TERMS_AND_CONDITION() {
           <br />
           <br />
           • Exceeding the preset limit mutually agreed by You and between
-          "Banks";
+          &quot;Banks&quot;;
           <br />
           <br />
           • Any payment issues arising out of the transaction; or
@@ -692,9 +696,9 @@ export default function TERMS_AND_CONDITION() {
         payment gateway networks. Further, by providing the Pay Facility, the
         Company is neither acting as trustees nor acting in a fiduciary capacity
         with respect to the transaction or the transaction price. Buyers
-        acknowledge and agree that the Company acts as the Merchant's payment
-        agent for the limited purpose of accepting payments from Buyers on
-        behalf of the Merchant. Upon Your payment of amounts to us, which are
+        acknowledge and agree that the Company acts as the Merchant&apos;s
+        payment agent for the limited purpose of accepting payments from Buyers
+        on behalf of the Merchant. Upon Your payment of amounts to us, which are
         due to the Merchant, Your payment obligation to the Merchant for such
         amounts is completed, and we are responsible for remitting such amounts
         to the Merchant. You shall not, under any circumstances whatsoever, make
