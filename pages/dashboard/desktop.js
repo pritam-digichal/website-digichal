@@ -7,6 +7,7 @@ import DigichalServices from "../../components/digichalServices";
 import WhyUs from "../../components/whyUs";
 import TutorialVideo from "../../components/tutorial-video";
 import FooterDesktop from "../../components/footer-desktop";
+import Review from "../../components/review";
 
 function DashboardDesktop() {
   return (
@@ -18,6 +19,7 @@ function DashboardDesktop() {
           <DigichalServices />
           <WhyUs />
           <TutorialVideo />
+          <Review />
           <FooterDesktop />
         </Col>
       </Row>

@@ -6,6 +6,7 @@ import BannerMobile from "../../components/bannerMobile";
 import DigichalServices from "../../components/digichalServices";
 import WhyUs from "../../components/whyUs";
 import TutorialVideo from "../../components/tutorial-video";
+import Review from "../../components/review-mobile";
 
 function DashboardDesktop() {
   return (
@@ -16,6 +17,7 @@ function DashboardDesktop() {
           <DigichalServices />
           <WhyUs />
           <TutorialVideo />
+          <Review />
         </Col>
       </Row>
     </>
