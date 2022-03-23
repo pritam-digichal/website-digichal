@@ -1,7 +1,7 @@
 import { Row, Col, Divider } from "antd";
 import React, { useState, useEffect } from "react";
-import BannerMobile from "../../components/bannerMobile";
-import DigichalServices from "../../components/digichalServices";
+import FeatureBanner from "../../components/featureBannerMobile";
+import FeatureDetails from "../../components/featureDetails";
 import HeaderMobile from "../../components/header-mobile";
 import FooterMobile from "../../components/footer-mobile";
 
@@ -11,8 +11,8 @@ function FeatureMobile() {
       <Row>
         <Col span={24}>
           <HeaderMobile />
-          <BannerMobile />
-          <DigichalServices />
+          <FeatureBanner />
+          <FeatureDetails />
           <FooterMobile />
         </Col>
       </Row>

@@ -31,10 +31,7 @@ const FooterDesktop = () => {
               </Link>
             </Col>
             <Col span={6}>
-              <Link
-                href="https://www.digichal.in/terms_and_condition/"
-                style={styles.removeLine}
-              >
+              <Link href="/terms_and_condition" style={styles.removeLine}>
                 <a target="_blank">
                   <span style={styles.footerText}>
                     {i18next.t("TERMS_AND_CONDITION")}
