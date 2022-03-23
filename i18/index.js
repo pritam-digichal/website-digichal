@@ -273,9 +273,6 @@ const resources = {
   },
 };
 
-// const lang = localStorage.getItem("language");
-// console.log(lang);
-
 let lang = "hi";
 if (typeof window !== "undefined") {
   if (localStorage.getItem("language") != null) {
