@@ -438,6 +438,7 @@ const styles = {
     color: "#090A0B",
     // marginTop: "30px",
     textAlign: "center",
+    marginBottom: "20px",
   },
   aboutUsMobileText: {
     fontSize: "28px",

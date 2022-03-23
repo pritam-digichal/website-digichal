@@ -72,7 +72,7 @@ const resources = {
       FEATURES: "Features",
       STORE_FINDER: "Store Finder",
       DEDICATE_TO_HELP_YOUR_BUSINESS: "Dedicated to help your business",
-      BANO_DIGITAL_WITH_DIGICHAL: "Bano digital with Digichal",
+      BANO_DIGITAL_WITH_DIGICHAL: "Bano digital with DigiChal",
       ABOUT_US: "About Us",
       ABOUT_US_INSTRUCTION_FIRST_PART:
         "Our country is moving towards Digital India and we believe that all business owners should reap its benefits. We owe our economic strength to India's MSMEs and we are aiming to provide them with the tools they need to streamline their financial activities and manage their business efficiently.",
