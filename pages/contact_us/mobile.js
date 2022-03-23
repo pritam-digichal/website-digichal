@@ -1,18 +1,16 @@
-import { Row, Col, Divider } from "antd";
-import React, { useState, useEffect } from "react";
-import BannerMobile from "../../components/bannerMobile";
-import DigichalServices from "../../components/digichalServices";
+import { Row, Col } from "antd";
+import React, {  } from "react";
 import HeaderMobile from "../../components/header-mobile";
 import FooterMobile from "../../components/footer-mobile";
+import ContactUsMobile from "../../components/conatctUsMobile";
 
-function ContactMobile() {
+function ContactDesktop() {
   return (
     <>
-      <Row>
+      <Row type="flex">
         <Col span={24}>
           <HeaderMobile />
-          <BannerMobile />
-          <DigichalServices />
+          <ContactUsMobile />
           <FooterMobile />
         </Col>
       </Row>
@@ -20,4 +18,4 @@ function ContactMobile() {
   );
 }
 
-export default ContactMobile;
+export default ContactDesktop;

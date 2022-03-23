@@ -1,5 +1,3 @@
-import illustration from "../../assets/images/originals/mainImage.png";
-import illustrationHindi from "../../assets/images/originals/illustrationHindi.png";
 import contact_us from "../../assets/images/contact_us.png";
 import locationImage from "../../assets/images/contact_us/location.png";
 import mailImage from "../../assets/images/contact_us/mail.png";
@@ -13,7 +11,7 @@ import React from "react";
 import Image from "next/image";
 import { Row, Col } from "antd";
 import Link from "next/link";
-const ContactUs = () => {
+const ContactUsMobile = () => {
   return (
     <>
       <Row align="bottom" justify="center" style={{ marginTop: 60 }}>
@@ -26,8 +24,13 @@ const ContactUs = () => {
           </span>
         </Col>
       </Row>
-      <Row align="bottom" justify="center" style={{ marginTop: 60 }}>
-        <Col span={6} align="middle">
+      <Row
+        align="bottom"
+        justify="center"
+        style={{ marginTop: 60 }}
+        gutter={[0, 24]}
+      >
+        <Col span={24} align="middle">
           <div style={{ textAlign: "center" }}>
             <div>
               <Image src={mailImage} width={48} height={44} />
@@ -36,7 +39,7 @@ const ContactUs = () => {
             <p>Info@digichal.in</p>
           </div>
         </Col>
-        <Col span={6} align="middle">
+        <Col span={24} align="middle">
           <div style={{ textAlign: "center" }}>
             <div>
               <Image src={supportImage} width={48} height={44} />
@@ -45,7 +48,7 @@ const ContactUs = () => {
             <p>+91-8062012502</p>
           </div>
         </Col>
-        <Col span={6} align="middle">
+        <Col span={24} align="middle">
           <div style={{ textAlign: "center" }}>
             <div>
               <Image src={locationImage} width={44} height={48} />
@@ -60,13 +63,7 @@ const ContactUs = () => {
         <Col span={24} align="middle" style={{ marginTop: 60 }}>
           <span style={styles.header1}>{i18next.t("FOLLOW_US")}</span>
         </Col>
-        <Col
-          span={5}
-          align="middle"
-          style={{
-            marginTop: 60,
-          }}
-        >
+        <Col span={10} align="middle">
           <div style={styles.socialMediaContent}>
             <div>
               <div style={styles.imageIcon}>
@@ -108,7 +105,7 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUsMobile;
 
 const styles = {
   header1: {
