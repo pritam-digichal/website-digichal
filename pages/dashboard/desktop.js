@@ -5,21 +5,18 @@ import HeaderDesktop from "../../components/header-desktop";
 import Banner from "../../components/banner";
 import DigichalServices from "../../components/digichalServices";
 import WhyUs from "../../components/whyUs";
+import FooterDesktop from "../../components/footer-desktop";
 
 function DashboardDesktop() {
   return (
     <>
-      <Row type="flex" align="middle" style={{ height: "15vh" }}>
-        <Col span={24}>
-          <HeaderDesktop />
-        </Col>
-      </Row>
-      <Divider style={{ margin: 0 }} />
       <Row type="flex">
         <Col span={24}>
+          <HeaderDesktop />
           <Banner />
           <DigichalServices />
           <WhyUs />
+          <FooterDesktop />
         </Col>
       </Row>
     </>
