@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import styles from "../../styles/Dashboard.module.css";
 import HeaderDesktop from "../../components/header-desktop";
 import Banner from "../../components/banner";
+import DigichalServices from "../../components/digichalServices";
 
 function DashboardDesktop() {
   return (
@@ -15,6 +16,7 @@ function DashboardDesktop() {
       <Row type="flex">
         <Col span={24}>
           <Banner />
+          <DigichalServices />
         </Col>
       </Row>
     </>

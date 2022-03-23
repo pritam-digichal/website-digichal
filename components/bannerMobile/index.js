@@ -12,9 +12,7 @@ const BannerMobile = () => {
       <Image
         src={i18next.language === "hi" ? illustrationHindi : illustration}
         alt="illustration"
-        width={"100%"}
-        height={243}
-        quality={"100%"}
+        objectFit="cover"
       />
 
       <div
