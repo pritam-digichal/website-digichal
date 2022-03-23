@@ -43,7 +43,7 @@ const resources = {
       OM_FURNITURE_REVIEW:
         "It take me minutes to fill the sale record and generate an invoice. When I give the customers the invoices they also feel I am a serious businessman.",
       WHAT_USER_SAY_ABOUT_US: "What our users say about us",
-      BANO_DIGITAL_WITH: "Bano Digital With",
+      BANO_DIGITAL_WITH: "Bano digital with",
       DIGICHAL: "DigiChal",
       ONE_STOP_SOLUTION_TO_MANAGE_BUSINESS:
         "One Stop Solution to Manage your Business",

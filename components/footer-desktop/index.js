@@ -25,7 +25,7 @@ const FooterDesktop = () => {
           <Row justify="space-between" align="middle">
             <Col span={6} align="middle" style={{ cursor: "pointer" }}>
               <Link href="/" style={styles.removeLine}>
-                <span style={styles.footerText}>Home</span>
+                <span style={styles.footerText}>{i18next.t("HOME")}</span>
               </Link>
             </Col>
             <Col span={6}>
@@ -34,7 +34,9 @@ const FooterDesktop = () => {
                 style={styles.removeLine}
               >
                 <a target="_blank">
-                  <span style={styles.footerText}>Terms & Conditions</span>
+                  <span style={styles.footerText}>
+                    {i18next.t("TERMS_AND_CONDITION")}
+                  </span>
                 </a>
               </Link>
             </Col>
@@ -44,7 +46,9 @@ const FooterDesktop = () => {
                 style={styles.removeLine}
               >
                 <a target="_blank">
-                  <span style={styles.footerText}>Privacy Policy</span>
+                  <span style={styles.footerText}>
+                    {i18next.t("PRIVACY_POLICY")}
+                  </span>
                 </a>
               </Link>
             </Col>
@@ -54,7 +58,9 @@ const FooterDesktop = () => {
                 style={styles.removeLine}
               >
                 <a target="_blank">
-                  <span style={styles.footerText}>Contact us</span>
+                  <span style={styles.footerText}>
+                    {i18next.t("CONTACT_US")}
+                  </span>
                 </a>
               </Link>
             </Col>
