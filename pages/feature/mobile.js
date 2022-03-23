@@ -2,23 +2,20 @@ import { Row, Col, Divider } from "antd";
 import React, { useState, useEffect } from "react";
 import styles from "../../styles/Dashboard.module.css";
 import HeaderDesktop from "../../components/header-desktop";
-import Banner from "../../components/banner";
+import BannerMobile from "../../components/bannerMobile";
 import DigichalServices from "../../components/digichalServices";
-import FooterDesktop from "../../components/footer-desktop";
 
-function DashboardDesktop() {
+function FeatureMobile() {
   return (
     <>
-      <Row type="flex">
+      <Row>
         <Col span={24}>
-          <HeaderDesktop />
-          <Banner />
+          <BannerMobile />
           <DigichalServices />
-          <FooterDesktop />
         </Col>
       </Row>
     </>
   );
 }
 
-export default DashboardDesktop;
+export default FeatureMobile;

@@ -137,7 +137,7 @@ const styles = {
     cursor: "pointer",
   },
   aboutUsText: {
-    fontSize: "18px",
+    fontSize: 18,
     fontWeight: "500",
     letterSpacing: "0.44px",
     color: "#3E3D3C",
@@ -147,10 +147,9 @@ const styles = {
       color: "#3CB3E7 !important",
     },
     textDecoration: "none",
-    fontFamily: "Roboto",
   },
   aboutUsNewText: {
-    fontSize: "18px",
+    fontSize: 18,
     fontWeight: "500",
     letterSpacing: "0.44px",
     color: "#3CB3E7",
@@ -160,7 +159,6 @@ const styles = {
       color: "#3CB3E7 !important",
     },
     textDecoration: "none",
-    fontFamily: "Roboto",
   },
 };
 export default HeaderDesktop;

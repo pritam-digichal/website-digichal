@@ -13,9 +13,7 @@ export default function Home() {
         title={i18next.t("META_TITLE")}
         description={i18next.t("META_DESCRIPTION")}
       />
-      <HeaderDesktop />
       <Dashboard />
-      {/* <FooterDesktop /> */}
     </div>
   );
 }

@@ -6,14 +6,13 @@ import Banner from "../../components/banner";
 import DigichalServices from "../../components/digichalServices";
 import FooterDesktop from "../../components/footer-desktop";
 
-function DashboardDesktop() {
+function FeatureDesktop() {
   return (
     <>
       <Row type="flex">
         <Col span={24}>
           <HeaderDesktop />
           <Banner />
-          <DigichalServices />
           <FooterDesktop />
         </Col>
       </Row>
@@ -21,4 +20,4 @@ function DashboardDesktop() {
   );
 }
 
-export default DashboardDesktop;
+export default FeatureDesktop;
