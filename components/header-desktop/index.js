@@ -98,10 +98,10 @@ const HeaderDesktop = (props) => {
             </Link>
           </Menu.Item>
           <Menu.Item key="4">
-            <Link href="/about_us">
+            <Link href="/about-us">
               <a
                 style={
-                  router.pathname == "/about_us"
+                  router.pathname == "/about-us"
                     ? styles.aboutUsNewText
                     : styles.aboutUsText
                 }
