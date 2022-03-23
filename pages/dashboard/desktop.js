@@ -4,6 +4,7 @@ import styles from "../../styles/Dashboard.module.css";
 import HeaderDesktop from "../../components/header-desktop";
 import Banner from "../../components/banner";
 import DigichalServices from "../../components/digichalServices";
+import WhyUs from "../../components/whyUs";
 
 function DashboardDesktop() {
   return (
@@ -18,6 +19,7 @@ function DashboardDesktop() {
         <Col span={24}>
           <Banner />
           <DigichalServices />
+          <WhyUs />
         </Col>
       </Row>
     </>
