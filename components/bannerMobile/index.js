@@ -19,6 +19,7 @@ const BannerMobile = () => {
         style={{
           display: "flex",
           flexDirection: "column",
+          paddingLeft: 20,
         }}
       >
         {i18next.language === "hi" ? (

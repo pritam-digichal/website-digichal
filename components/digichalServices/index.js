@@ -353,6 +353,10 @@ const styles = {
     paddingLeft: 70,
     paddingRight: 70,
   },
+  mobileContainer: {
+    paddingLeft: 20,
+    paddingRight: 20,
+  },
   heading: {
     fontSize: "30px",
     letterSpacing: "0.7px",
