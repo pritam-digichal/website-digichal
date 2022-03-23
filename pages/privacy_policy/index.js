@@ -1,7 +1,7 @@
 import { Row, Col, Divider } from "antd";
 import React from "react";
-import TermsAndConditionDesktop from "./desktop";
-import TermsAndConditionMobile from "./mobile";
+import PrivacyPolicyDesktop from "./desktop";
+import PrivacyPolicyMobile from "./mobile";
 import { useMediaQuery } from "react-responsive";
 
 function TermsAndCondition() {
@@ -11,8 +11,8 @@ function TermsAndCondition() {
   });
   return (
     <>
-      {isDesktopOrLaptop && <TermsAndConditionDesktop />}
-      {isTabletOrMobile && <TermsAndConditionMobile />}
+      {isDesktopOrLaptop && <PrivacyPolicyDesktop />}
+      {isTabletOrMobile && <PrivacyPolicyMobile />}
     </>
   );
 }

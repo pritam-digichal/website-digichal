@@ -40,10 +40,7 @@ const FooterDesktop = () => {
               </Link>
             </Col>
             <Col span={6}>
-              <Link
-                href="https://www.digichal.in/privacy_policy/"
-                style={styles.removeLine}
-              >
+              <Link href="/privacy_policy" style={styles.removeLine}>
                 <a target="_blank">
                   <span style={styles.footerText}>
                     {i18next.t("PRIVACY_POLICY")}

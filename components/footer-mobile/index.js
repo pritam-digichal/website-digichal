@@ -31,10 +31,7 @@ const FooterMobile = () => {
               </Link>
             </Col>
             <Col span={24}>
-              <Link
-                href="https://www.digichal.in/terms_and_condition/"
-                style={styles.removeLine}
-              >
+              <Link href="/terms_and_condition" style={styles.removeLine}>
                 <a target="_blank">
                   <span style={styles.footerText}>
                     {i18next.t("TERMS_AND_CONDITION")}
@@ -43,10 +40,7 @@ const FooterMobile = () => {
               </Link>
             </Col>
             <Col span={24}>
-              <Link
-                href="https://www.digichal.in/privacy_policy/"
-                style={styles.removeLine}
-              >
+              <Link href="/privacy_policy" style={styles.removeLine}>
                 <a target="_blank">
                   <span style={styles.footerText}>
                     {i18next.t("PRIVACY_POLICY")}
