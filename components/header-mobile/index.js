@@ -111,10 +111,10 @@ const HeaderMobile = (props) => {
         </Link>
         <br />
         <br />
-        <Link href="/about-us">
+        <Link href="/about_us">
           <a
             style={
-              router.pathname == "/about-us"
+              router.pathname == "/about_us"
                 ? styles.aboutUsNewText
                 : styles.aboutUsText
             }

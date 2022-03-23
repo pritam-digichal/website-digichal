@@ -1,4 +1,4 @@
-import { AutoComplete, Row, Col, Input } from "antd";
+import { Row, Col } from "antd";
 import Image from "next/image";
 import React from "react";
 const digicalLogo = require("./../../assets/images/logo.png");
@@ -15,7 +15,9 @@ const FooterDesktop = () => {
       <Row align="middle">
         <Col span={8}>
           <div style={styles.logoBox}>
-            <Image alt="logo" src={digicalLogo} width={272} height={72} />
+            <Link href="/">
+              <Image alt="logo" src={digicalLogo} width={272} height={72} />
+            </Link>
             <p style={styles.heading1}>
               {i18next.t("BANO_DIGITAL_WITH_DIGICHAL")}
             </p>
@@ -53,11 +55,8 @@ const FooterDesktop = () => {
               </Link>
             </Col>
             <Col span={6}>
-              <Link
-                href="https://www.digichal.in/contact_us/"
-                style={styles.removeLine}
-              >
-                <a target="_blank">
+              <Link href="/contact_us" style={styles.removeLine}>
+                <a>
                   <span style={styles.footerText}>
                     {i18next.t("CONTACT_US")}
                   </span>
@@ -124,6 +123,7 @@ const styles = {
   logoBox: {
     marginLeft: 72,
     marginTop: 44,
+    cursor: "pointer",
   },
   footerText: {
     fontSize: 20,
@@ -137,7 +137,7 @@ const styles = {
   copyrightText: {
     color: "#707272",
     fontSize: 14,
-    letterSpacing: 1,
+    letterSpacing: 0.24,
   },
   removeLine: {
     textDecoration: "none",
