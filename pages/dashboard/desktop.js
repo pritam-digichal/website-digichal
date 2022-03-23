@@ -5,6 +5,7 @@ import HeaderDesktop from "../../components/header-desktop";
 import Banner from "../../components/banner";
 import DigichalServices from "../../components/digichalServices";
 import WhyUs from "../../components/whyUs";
+import TutorialVideo from "../../components/tutorial-video";
 import FooterDesktop from "../../components/footer-desktop";
 
 function DashboardDesktop() {
@@ -16,6 +17,7 @@ function DashboardDesktop() {
           <Banner />
           <DigichalServices />
           <WhyUs />
+          <TutorialVideo />
           <FooterDesktop />
         </Col>
       </Row>
