@@ -31,7 +31,7 @@ const AboutUsDesktop = () => {
           {i18next.t("BANO_DIGITAL_WITH_DIGICHAL")}
         </p>
       </div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 24 }}>
         <Image src={about_us_1} width={677} height={574} />
       </div>
       <div style={{ textAlign: "center", marginTop: "30px" }}>
@@ -429,14 +429,13 @@ const styles = {
     fontSize: "38px",
     letterSpacing: "0.5px",
     color: "#090A0B",
-    marginTop: "30px",
+    marginTop: "48px",
     textAlign: "center",
   },
   aboutUsInstText: {
     fontSize: "28px",
     letterSpacing: "0.5px",
     color: "#090A0B",
-    // marginTop: "30px",
     textAlign: "center",
     marginBottom: "20px",
   },
