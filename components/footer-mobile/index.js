@@ -15,7 +15,9 @@ const FooterMobile = () => {
       <Row align="middle">
         <Col span={24}>
           <div style={styles.logoBox}>
-            <Image alt="logo" src={digicalLogo} width={155} height={42} />
+            <Link href="/">
+              <Image alt="logo" src={digicalLogo} width={155} height={42} />
+            </Link>
             <p style={styles.heading1}>
               {i18next.t("BANO_DIGITAL_WITH_DIGICHAL")}
             </p>

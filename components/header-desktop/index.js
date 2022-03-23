@@ -41,13 +41,9 @@ const HeaderDesktop = (props) => {
       <Col span={4}>
         <div style={styles.logoBox}>
           <span style={styles.logo}>
-            <Image
-              alt="logo"
-              src={logo}
-              width={272}
-              height={72}
-              onClick={gotoHome}
-            />
+            <Link href="/">
+              <Image alt="logo" src={logo} width={272} height={72} />
+            </Link>
           </span>
         </div>
       </Col>

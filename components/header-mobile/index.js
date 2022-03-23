@@ -49,13 +49,9 @@ const HeaderMobile = (props) => {
       <Col span={12}>
         <div style={styles.logoBox}>
           <span style={styles.logo}>
-            <Image
-              alt="logo"
-              src={logo}
-              width={108}
-              height={30}
-              onClick={gotoHome}
-            />
+            <Link href="/">
+              <Image alt="logo" src={logo} width={108} height={30} />
+            </Link>
           </span>
         </div>
       </Col>
