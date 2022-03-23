@@ -6,9 +6,17 @@ import i18next from "../../i18/index";
 import React from "react";
 import Image from "next/image";
 
-const Banner = () => {
+const BannerMobile = () => {
   return (
-    <div style={styles.mainContent}>
+    <div style={styles.mainContentMobile}>
+      <Image
+        src={i18next.language === "hi" ? illustrationHindi : illustration}
+        alt="illustration"
+        width={"100%"}
+        height={243}
+        quality={"100%"}
+      />
+
       <div
         style={{
           display: "flex",
@@ -16,52 +24,43 @@ const Banner = () => {
         }}
       >
         {i18next.language === "hi" ? (
-          <div style={styles.slideInLeft}>
-            <span style={styles.heading2}>{i18next.t("DIGICHAL")}</span>
+          <div>
+            <span style={styles.headingMobile2}>{i18next.t("DIGICHAL")}</span>
             <br />
-            <span style={styles.heading1}>
+            <span style={styles.headingMobile1}>
               {i18next.t("BANO_DIGITAL_WITH")}
             </span>
           </div>
         ) : (
-          <div style={styles.slideInLeft}>
-            <span style={styles.heading1}>
+          <div>
+            <span style={styles.headingMobile1}>
               {i18next.t("BANO_DIGITAL_WITH")}
             </span>
             <br />
-            <span style={styles.heading2}>{i18next.t("DIGICHAL")}</span>
+            <span style={styles.headingMobile2}>{i18next.t("DIGICHAL")}</span>
           </div>
         )}
-
-        <div style={styles.slideInUp}>
-          <span style={styles.heading3}>
+        <div style={{ marginTop: "8px" }}>
+          <span style={styles.headingMobile3}>
             {i18next.t("ONE_STOP_SOLUTION_TO_MANAGE_BUSINESS")}
           </span>
         </div>
 
-        <div style={styles.slideInUp1}>
+        <div style={{ marginTop: "30px" }}>
           <a
             href="https://play.google.com/store/apps/details?id=com.digichal"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={playStore} alt="playStore" width={240} height={72} />
+            <Image src={playStore} alt="playStore" width={126} height={46} />
           </a>
         </div>
-      </div>
-      <div style={styles.fadeIn}>
-        <Image
-          src={i18next.language === "hi" ? illustrationHindi : illustration}
-          alt="illustration"
-          width={693}
-          height={520}
-        />
       </div>
     </div>
   );
 };
 
-export default Banner;
+export default BannerMobile;
 
 const styles = {
   mainContent: {
